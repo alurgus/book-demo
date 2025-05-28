@@ -15,4 +15,8 @@ public class IssueRepository {
     public IssueRepository() {
         this.issues = new ArrayList<>();
     }
+
+    public void save(Issue issue){
+        issues.add(issue);
+    }
 }
